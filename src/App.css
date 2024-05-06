@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+}
+
+:root {
+  --color: #028102;
+  --seccolor: #ed1651;
+}
+.btncolor {
+  color: #ed1651;
+}
+
+/* webkit scroll bar color  start*/
+::-webkit-scrollbar {
+  width: 13px;
+}
+::-webkit-scrollbar-track {
+  background-color: #028102;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ed1651;
+  border-radius: 10px;
+}
+/* webkit scroll bar color  end*/
+
+/* topbar start */
+
+.icon {
+  font-size: 16px;
+  color: #028102;
+}
+.btns {
+  text-decoration: none;
+  outline: none;
+  border: 0;
+  background-color: #ed1651;
+  color: white;
+  border: 1px solid white;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  top: -20px;
+  right: -20px;
+}
+
+/* topbar end */
+
+/*------------ header start  ------ */
+.navbar {
+  top: -1px;
+  z-index: 100;
+  background-color: var(--color);
+  color: white !important;
+}
+.navbar-brand {
+  width: 160px;
+  height: 63px;
+}
+.navbar-brand img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.navbar-nav .nav-item {
+  font-size: 18px;
+  color: var(--color);
+}
+.a {
+  margin-top: 40px;
+}
+
+
+.inquirybtn{
+  background-color: #ec4b76;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  
+}
+
+/* home carausel system  */
+.carousel-item {
+  height: 80vh;
+  position: relative;
+}
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)); /* Adjust the colors and opacity as needed */
+}
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+}
+.carousel-caption {
+  top: 40px;
+}
+
+
+
+
+
+
+/* home carausel system  end */
+.bannerIcon {
+  top: 50%;
+  right: 0px;
+  transform: translatey(-50%);
+  color: white;
+  padding-right: 10px;
+}
+.phoneIcon {
+  position: relative;
+  font-size: 28px;
+  margin: 6px 0;
+  padding: 0px 10px;
+  border: 1px dotted #ed1651;
+  background-color: #028102;
+  
+}
+.phoneIcon::after {
+  content: attr(data-text);
+  overflow: hidden;
+  position: absolute;
+  display: none;
+  color: green;
+  height: 100%;
+  width: 250px;
+  border: 1px solid#ed1651;
+  right: 100%;
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  top: 0;
+  animation: animateHover 0.7s normal;
+}
+.phoneIcon:hover::after {
+  display: block;
+}
+.phoneIcon::after {
+  content: attr(data-text);
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  padding-top: 7px;
+  font-weight: 600;
+}
+
+@keyframes animateHover {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 250px;
+  }
+}
+
+@media(max-width:567px){
+  .logoicon{
+  display: block;   
+  }
+}
+
+
+@media(max-width:768px){
+  .logoicon{
+    display: block;
+    
+  }
+}
+
+
+
+
+/* ScrollComponent.css */
+
+.QRCodeDownload {
+  position: fixed;
+  bottom: 200px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.QRCodeDownload .QRCode {
+  max-width: 100px;
+  height: auto;
+}
+
+#popoupContainer {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 200;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.popupimg{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.imageContainer{
+  height: 70%;
+  position: relative;
+}
+
+
+/* about */
+.about{
+  background-color: #f6f3f3;
+}
+.aboutmission{
+  text-align:justify;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: var(--color);
+  color: rgb(242, 246, 242) !important;
+  padding: 12px;
+  border-radius: 10px;
+  height: 135px;
+ 
+  
+}
+.lineborder{
+  border-bottom: 2px solid var(--seccolor);
+  width: 60px ;
+  
+}
+.philosphy{
+  text-align: justify;
+}
+.aboutheade{
+  color: var(--seccolor);
+}
+.aboutimg{
+  height: 300px;
+  width: 100%;
+}
+
+
+
+
+
+.lrpaimg{
+  width: 200px;
+  height: 100px;
+}
+.lrpaimg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lineheight{
+  line-height: 20px;
+  color: #343333;
+}
+.feature{
+  color: var(--color);
+}
+
+.with-line {
+  position: relative;
+}
+
+.with-line::after {
+  content: "";
+  position: absolute;
+  bottom: -5px; /* Adjust this value to control the distance of the line from the text */
+  left: 25%; /* Position the line at the center of the text */
+  width: 50%; /* Adjust this value to control the width of the line */
+  border-bottom: 2px solid var(--seccolor); /* Style of the line */
+}
+
+
+
+
