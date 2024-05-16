@@ -9,6 +9,8 @@ import ScrollComponent from "../Components/ScrollComponent";
 import popoupImg from "/notice.jpg";
 import Contact from "./Contact";
 import Lrpa from "../Components/Lrpa";
+import Testimonial from "../Components/Testimonial";
+import Blog from "../Components/Blog";
 
 const Home = () => {
   const [popoup, setPopup] = useState(true);
@@ -32,6 +34,8 @@ const Home = () => {
       <About />
       <Lrpa/>
       <Contact/>
+      <Blog/>
+      <Testimonial/>
       <ScrollComponent />
       <Footer />
     </>

@@ -33,7 +33,7 @@ const Lrpa = () => {
 
           <div className="col-md-6  pb-5">
             <div className="d-flex align-items-center p-2">
-              <div className="lrpaimg   ">
+              <div className="lrpaimg  shadow  ">
                 <img
                   src="/ca.png"
                   alt=""
@@ -59,7 +59,7 @@ const Lrpa = () => {
                 <img
                   src="/observation.png"
                   alt=""
-                  className="rounded-circle object-fit-cover "
+                  className="rounded-circle object-fit-cover shadow"
                   style={{ width: "200px", height: "200px" }}
                 />
               </div>
@@ -78,7 +78,7 @@ const Lrpa = () => {
                 <img
                   src="/assignment.png"
                   alt=""
-                  className="rounded-circle object-fit-cover "
+                  className="rounded-circle object-fit-cover shadow-lg  "
                   style={{ width: "200px", height: "200px" }}
                 />
               </div>
@@ -96,7 +96,7 @@ const Lrpa = () => {
                 <img
                   src="/TimeBounded.png"
                   alt=""
-                  className="object-fit-cover  "
+                  className="object-fit-cover shadow-lg "
                   style={{ width: "200px", height: "190px" }}
                 />
               </div>
