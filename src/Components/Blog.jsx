@@ -23,7 +23,7 @@ const Blog = () => {
               <img className="card-img-top" src="https://img.freepik.com/free-photo/portrait-young-girl-student-attending-school_23-2150911365.jpg?t=st=1715847924~exp=1715851524~hmac=450355d08cbfe5c5b68b8a361c516c1239b74d035500356e086e4c4a3f2d1340&w=740" alt="Blog 2" />
               <div className="card-body">
                 <h5 className="card-title">Akhsara Registration Open</h5>
-                <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur ultrices enim nec scelerisque.</p>
+                <p className="card-text">Lorem ipsum dolor sit amet,cin Vivamus efficitur ultrices enim nec scelerisque.</p>
                 <a href="#" className="btn blogbtn rounded-pill ">Read More</a>
               </div>
             </div>

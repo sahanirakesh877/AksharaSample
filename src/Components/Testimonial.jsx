@@ -73,8 +73,8 @@ const Testimonial = () => {
         <div className="container  mx-auto pb-5">
           <div className=" py-5">
             <h1 className=" text-center client  font-semibold pb-3">
-              Our Client{" "}
-              <span className="text-white hover-border-b">Reviews</span>
+              What Parents{" "}
+              <span className="text-white hover-border-b">Says</span>
             </h1>
          
           </div>
