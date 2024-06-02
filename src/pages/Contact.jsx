@@ -14,7 +14,7 @@ const Contact = () => {
           <ul className="list-unstyled px-4  text-light   d-flex justify-content-start align-items-start flex-column  gap-4">
             <li className="d-flex justify-content-start align-items-center">
               <div>
-                <FaLocationDot size={28} className="me-3 border rounded-pill p-1" />
+                <FaLocationDot size={28} className="me-3 border contact-icon  rounded-pill p-1" />
               </div>
               <div>
                 <span>
@@ -25,7 +25,7 @@ const Contact = () => {
             </li>
             <li className="d-flex justify-content-start align-items-center">
               <div>
-                <FaPhoneAlt size={28} className="me-3 border rounded-pill p-1" />
+                <FaPhoneAlt size={28} className="me-3 border contact-icon rounded-pill p-1" />
               </div>
               <div>
                 <span>
@@ -34,13 +34,13 @@ const Contact = () => {
               </div>{" "}
             </li>
             <li className="d-flex justify-content-start align-items-center">
-              <FaEnvelope size={28} className="me-3 border rounded-pill p-1" />
+              <FaEnvelope size={28} className="me-3 border contact-icon  rounded-pill p-1" />
               <span>
                 <strong>Email:</strong> example@example.com
               </span>
             </li>
             <li className="d-flex justify-content-start align-items-center">
-              <FaGlobe size={28} className="me-3 border rounded-pill p-1" />
+              <FaGlobe size={28} className="me-3 border contact-icon  rounded-pill p-1" />
               <span>
                 <strong>Website:</strong> www.example.com
               </span>
@@ -48,7 +48,8 @@ const Contact = () => {
           </ul>
         </div>
         <div className="col-md-7 border py-4">
-          <h4 className="text-center   fw-semibold">Get in Touch</h4>
+          <h4 className="text-center   fw-semibold   ">Get in Touch</h4>
+        
           <form className="px-4">
             <div className="form-group pb-3">
               <label htmlFor="name">Name:</label>

@@ -38,7 +38,7 @@ const Testimonial = () => {
     slidesToScroll: 2,
     dots: true,
     dotsClass: "slick-dots slick-thumb",
-   
+
     responsive: [
       {
         breakpoint: 1024,
@@ -76,14 +76,13 @@ const Testimonial = () => {
               What Parents{" "}
               <span className="text-white hover-border-b">Says</span>
             </h1>
-         
           </div>
 
           <Slider {...settings} className="pb-5">
             {clientData.map((a, id) => (
               <div
                 key={id}
-                className=" d-flex justify-content-between    border border-black  align-items-center "
+                className="  testimonial-item  d-flex justify-align-content-between       align-items-center "
               >
                 <div className="p-3 w-full ">
                   <div className="h-full">
@@ -91,16 +90,16 @@ const Testimonial = () => {
                       {a.para.substring(0, 250)}....
                     </p>
                     <div className="d-flex flex-column  justify-content-center  align-items-center ">
-                    <div className="reviewsimg">
-                    <img src="https://cdn2.iconfinder.com/data/icons/review-and-feedback-1/512/man_review-512.png" alt="" />
-                 
+                      <div className="reviewsimg">
+                        <img
+                          src="https://cdn2.iconfinder.com/data/icons/review-and-feedback-1/512/man_review-512.png"
+                          alt=""
+                        />
+                      </div>
+                      <span className="  font-monospace  text-light fs-5">
+                        {a.name}
+                      </span>
                     </div>
-                    <span className="  font-monospace  fs-5">
-                      {a.name}
-                    </span>
-                    </div>
-                   
-                  
                   </div>
                 </div>
               </div>

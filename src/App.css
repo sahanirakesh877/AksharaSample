@@ -18,8 +18,6 @@ ul {
   color: #ed1651;
 }
 
-
-
 /* webkit scroll bar color  start*/
 ::-webkit-scrollbar {
   width: 13px;
@@ -33,7 +31,6 @@ ul {
   border-radius: 10px;
 }
 /* webkit scroll bar color  end*/
-
 
 /* topbar start */
 .icon {
@@ -79,11 +76,10 @@ ul {
 .a {
   margin-top: 40px;
 }
-.inquirybtn{
+.inquirybtn {
   background-color: #ec4b76;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  
 }
 
 /* home carausel system  */
@@ -108,11 +104,6 @@ ul {
   top: 40px;
 }
 
-
-
-
-
-
 /* home carausel system  end */
 .bannerIcon {
   top: 50%;
@@ -128,7 +119,6 @@ ul {
   padding: 0px 10px;
   border: 1px dotted #ed1651;
   background-color: #028102;
-  
 }
 .phoneIcon::after {
   content: attr(data-text);
@@ -168,47 +158,55 @@ ul {
   }
 }
 
-@media(max-width:567px){
-  .logoicon{
-  display: block;   
-  }
-}
-@media(max-width:768px){
-  .logoicon{
+@media (max-width: 567px) {
+  .logoicon {
     display: block;
-    
   }
 }
-
+@media (max-width: 768px) {
+  .logoicon {
+    display: block;
+  }
+}
 
 /* testimonial section  */
-.testimonial{
-  background-color: #d9e9d9;
+.testimonial {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+    url("https://img.freepik.com/free-photo/kids-dance-school-ballet-hiphop-street-funky-modern-dancers-blue-studio_155003-5943.jpg?t=st=1717305301~exp=1717308901~hmac=191f09a591b11b7a92bed505b52827c32dcd7a7739db8a1483a2afa1aef32f78&w=826");
+  background-size: cover;
+  background-position: center;
 }
-.client{
-  color: #ec4b76;
 
+.client {
+  color: #fd2660;
 }
-.review{
+.review {
   text-align: justify;
+  color: rgb(225, 224, 224);
 }
-.reviewsimg{
+.reviewsimg {
   width: 60px;
   height: 60px;
- border: 1px solid red ;
+
   border-radius: 50%;
 }
-.reviewsimg img{
+.testimonial-item{
+  padding: 0 10px;
+  border: 1px solid #EC4B76;
+  border-radius: 15px;
+}
+.reviewsimg img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-
+  background-color: white;
+  border-radius: 50%;
 }
-.maps{
+.maps {
   width: 100%;
   margin-bottom: -8px;
 }
-.mpasint{
+.mpasint {
   width: 100%;
 }
 
@@ -238,28 +236,27 @@ ul {
   height: 100vh;
   width: 100vw;
   z-index: 200;
- display: flex;
- justify-content: center;
- align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.popupimg{
+.popupimg {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
-.imageContainer{
+.imageContainer {
   height: 70%;
   position: relative;
 }
 
-
 /* about */
-.about{
+.about {
   background-color: #f6f3f3;
 }
-.aboutmission{
-  text-align:justify;
+.aboutmission {
+  text-align: justify;
   font-size: 14px;
   line-height: 18px;
   background-color: var(--color);
@@ -267,38 +264,35 @@ ul {
   padding: 12px;
   border-radius: 10px;
   height: 135px;
- 
-  
 }
-.lineborder{
+.lineborder {
   border-bottom: 2px solid var(--seccolor);
-  width: 60px ;
-  
+  width: 60px;
 }
-.philosphy{
+.philosphy {
   text-align: justify;
 }
-.aboutheade{
+.aboutheade {
   color: var(--seccolor);
 }
-.aboutimg{
+.aboutimg {
   height: 300px;
   width: 100%;
 }
-.lrpaimg{
+.lrpaimg {
   width: 200px;
   height: 100px;
 }
-.lrpaimg{
+.lrpaimg {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.lineheight{
+.lineheight {
   line-height: 20px;
   color: #343333;
 }
-.feature{
+.feature {
   color: var(--color);
 }
 .with-line {
@@ -313,24 +307,26 @@ ul {
   border-bottom: 2px solid var(--seccolor); /* Style of the line */
 }
 
-
-
 /* blogs section start */
-.blog{
+.blog {
   color: #ed1651;
 }
-.blogbtn{
+.blogbtn {
   background-color: #ed1651;
   color: aliceblue;
 }
 
-.blogbtn:hover{
+.blogbtn:hover {
   background-color: #028102;
   color: aliceblue;
   transition: all 0.5s ease-in-out;
 }
+.card-text{
+  font-size: 15px;
+}
 
 
-
-
-
+/* contact page */
+.contact-icon {
+  background-color: #ed1651;
+}
