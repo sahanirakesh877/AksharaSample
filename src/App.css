@@ -190,9 +190,9 @@ ul {
 
   border-radius: 50%;
 }
-.testimonial-item{
+.testimonial-item {
   padding: 0 10px;
-  border: 1px solid #EC4B76;
+  border: 1px solid #ec4b76;
   border-radius: 15px;
 }
 .reviewsimg img {
@@ -214,8 +214,8 @@ ul {
 
 .QRCodeDownload {
   position: fixed;
-  bottom: 100px;
-  right: 20px;
+  bottom: 50px;
+  left: 50px;
   background-color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 5px;
@@ -320,13 +320,136 @@ ul {
   color: aliceblue;
   transition: all 0.5s ease-in-out;
 }
-.card-text{
+.card-text {
   font-size: 15px;
 }
-
 
 /* contact page */
 .contact-icon {
   background-color: #ed1651;
 }
 
+/* communtity */
+.learning12{
+  background-image: url('https://img.freepik.com/premium-vector/green-wave-white-background-abstract-transparent-wave-background_206325-200.jpg?w=826');
+background-position: center;
+}
+.comm-parent {
+ 
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-193955.jpg?w=740");
+}
+.commnuti {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Times New Roman";
+}
+.text-wrap {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+  opacity: 0;
+  transition: opacity 0.9s ease-in-out;
+}
+
+.content-section.visible {
+  opacity: 1;
+}
+.content-section {
+  width: 100%;
+  height: 500px;
+}
+.content-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.content-image:hover {
+  transform: scale(1.05);
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 15px;
+  left: 200px;
+  right: 10px;
+  border-radius:10px;
+  padding: 5px 20px;
+  align-items: center;
+  background-color: rgb(41, 114, 41);
+ 
+  color: white;
+  opacity: 1;
+  border: 1px solid rgb(253, 253, 253);
+  
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.learning {
+  font-style: italic;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.learning:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.progress-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  width: 10px;
+  height: 50px;
+  background-color: lightgray;
+  transition: background-color 0.3s;
+}
+
+.progress-bar.active {
+  background-color: red;
+}
+
+.learning.active-text {
+  color: red;
+  border-bottom: 2px solid red;
+  font-weight: bold;
+}
+
+.learning-text{
+  font-size: 14px;
+  text-align: justify;
+}

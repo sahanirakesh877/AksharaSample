@@ -6,11 +6,14 @@ import About from "./About";
 import Footer from "../Components/Footer";
 import ScrollComponent from "../Components/ScrollComponent";
 
-import popoupImg from "/notice.jpg";
+// import popoupImg from "/notice.jpg";
 import Contact from "./Contact";
-import Lrpa from "../Components/Lrpa";
+// import Lrpa from "../Components/Lrpa";
 import Testimonial from "../Components/Testimonial";
 import Blog from "../Components/Blog";
+import Community from "../Components/Community";
+import Learning from "../Components/Learning";
+import Learning1 from "../Components/Learning1";
 
 const Home = () => {
   const [popoup, setPopup] = useState(true);
@@ -32,8 +35,12 @@ const Home = () => {
       <TopBar />
       <Header />
       <Banner />
+    
       <About />
-      <Lrpa/>
+      <Learning1/>
+      <Learning/>
+      <Community/>
+      {/* <Lrpa/> */}
       <Contact/>
       <Blog/>
       <Testimonial/>
