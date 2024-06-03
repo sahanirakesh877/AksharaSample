@@ -41,8 +41,9 @@ const Home = () => {
       <Learning/>
       <Community/>
       {/* <Lrpa/> */}
-      <Contact/>
       <Blog/>
+      <Contact/>
+     
       <Testimonial/>
       <ScrollComponent />
       <Footer />

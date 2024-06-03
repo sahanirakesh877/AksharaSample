@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import communityData from "../Data/CommunityData";
 
 const Community = () => {
-  const [selectedId, setSelectedId] = useState(null);
+  const [selectedId, setSelectedId] = useState(1);
 
   const handleTitleClick = (id) => {
     setSelectedId(id);

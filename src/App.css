@@ -277,6 +277,7 @@ ul {
 .aboutimg {
   height: 300px;
   width: 100%;
+  object-fit: contain;
 }
 .lrpaimg {
   width: 200px;
