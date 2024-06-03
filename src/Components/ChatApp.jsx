@@ -62,11 +62,14 @@ const ChatApp = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <ChatBot
-        steps={steps}
-        floating={true}
-        headerTitle={"Welcome to Akshara School"}
-      />
+     <div className="chatbot-container "> 
+        <ChatBot
+          steps={steps}
+          floating={true}
+          headerTitle={"Welcome to Akshara School"}
+       
+        />
+      </div>
     </ThemeProvider>
   );
 };

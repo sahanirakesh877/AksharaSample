@@ -20,7 +20,8 @@ const Home = () => {
       {popoup && (
         <div id="popoupContainer">
           <div className="imageContainer">
-            <img src={popoupImg} alt="" className="popupimg" />
+            {/* <img src={popoupImg} alt="" className="popupimg" /> */}
+             <img src='https://aksharaaschool.edu.np/storage/news-events/March2024/xRqFMcDy8P7lYMTjGLjkS.jpg.pagespeed.ic.eYuKu8OBu4.webp' alt="" className="popupimg" />
 
             <button className="btns" onClick={() => setPopup(false)}>
               X

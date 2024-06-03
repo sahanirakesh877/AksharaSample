@@ -1,5 +1,5 @@
 import './App.css'
-// import ChatApp from './Components/ChatApp';
+ import ChatApp from './Components/ChatApp';
 import Home from './pages/Home';
 function App() {
 
@@ -7,7 +7,7 @@ function App() {
     <>
       
   <Home/>
-  {/* <ChatApp/> */}
+  <ChatApp/>
 
     </>
   )
