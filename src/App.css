@@ -285,13 +285,13 @@ a{
 }
 .aboutmission {
   text-align: justify;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 18px;
   background-color: var(--color);
   color: rgb(242, 246, 242) !important;
   padding: 12px;
   border-radius: 10px;
-  height: 135px;
+  height: 110px;
 }
 .lineborder {
   border-bottom: 2px solid var(--seccolor);
