@@ -4,7 +4,7 @@ const Header = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg   position-sticky    ">
+      <nav className="navbar navbar-expand-lg   position-sticky">
         <div className="container  alex mx-auto">
           <a className="navbar-brand d-md-none d-sm-block logoicon" href="#">
             <img src="/aksara.png" alt="" />
@@ -21,24 +21,24 @@ const Header = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mx-auto mb-2 mb-lg-0 gap-2  py-2 text-light">
+            <ul className="navbar-nav mx-auto mb-2 mb-lg-0 gap-2  py-2 text-white">
 
 
               <li className="nav-item">
-                <a className="nav-link active text-light" aria-current="page" href="#">
+                <a className="nav-link active text-white" aria-current="page" href="#">
                   Home
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link text-light" href="#">
+                <a className="nav-link text-white" href="#">
                   About Us
                 </a>
               </li>
 
               <li className="nav-item dropdown">
                 <a
-                  className="nav-link dropdown-toggle text-light"
+                  className="nav-link dropdown-toggle text-white"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -67,7 +67,7 @@ const Header = () => {
 
               <li className="nav-item dropdown">
                 <a
-                  className="nav-link text-light dropdown-toggle"
+                  className="nav-link text-white dropdown-toggle"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -96,7 +96,7 @@ const Header = () => {
 
               <li className="nav-item dropdown  ">
                 <a
-                  className="nav-link text-light dropdown-toggle"
+                  className="nav-link text-white dropdown-toggle"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -124,22 +124,22 @@ const Header = () => {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link  text-light" aria-disabled="true">
+                <a className="nav-link  text-white" aria-disabled="true">
                   Gallery
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link  text-light" aria-disabled="true">
+                <a className="nav-link  text-white" aria-disabled="true">
                  Carrer
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link  text-light" aria-disabled="true">
+                <a className="nav-link  text-white" aria-disabled="true">
                  Download
                 </a>
               </li>
               <li className="nav-item  inquirybtnlist">
-                <button className="nav-link  px-5 inquirybtn text-light" aria-disabled="true">
+                <button className="nav-link  px-5 inquirybtn text-white" aria-disabled="true">
                 Get Inquiry
                 </button>
               </li>

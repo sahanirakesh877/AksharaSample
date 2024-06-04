@@ -2,18 +2,19 @@ import React from "react";
 
 const Calender = () => {
   const blogs = [
-   
     {
       id: 2,
       title: "Science Fair Highlights",
-      description: "Our annual science fair was a huge success, with students showcasing innovative projects and experiments. Check out the highlights and see which projects won awards!",
+      description:
+        "Our annual science fair was a huge success, with students showcasing innovative projects and experiments. Check out the highlights and see which projects won awards!",
       img:
         "https://img.freepik.com/premium-photo/business-executives-interacting-with-each-other-while-having-coffee_107420-73049.jpg?w=826",
     },
     {
       id: 3,
       title: "Art Exhibition",
-      description: "The art exhibition displayed a diverse range of creative works by our talented students. Take a virtual tour of the exhibition and admire their artistic expressions.",
+      description:
+        "The art exhibition displayed a diverse range of creative works by our talented students. Take a virtual tour of the exhibition and admire their artistic expressions.",
       img:
         "https://img.freepik.com/premium-photo/team-creative-business-people_186382-6344.jpg?w=826",
     },
@@ -62,7 +63,10 @@ const Calender = () => {
       <div className="row">
         {/* Left side content: Blogs */}
         <div className="col-md-6">
-        <h3 className="text-start text-success mb-4 fw-semibold "><span className='blog'>Recent</span>  Activities</h3>
+          <h3 className="text-start text-success mb-4 fw-semibold ">
+            <span className="blog ourvalues">Recent</span>{" "}
+            <span className="ourvalues">Activities</span>
+          </h3>
           {blogs.map((blog) => (
             <div key={blog.id} className="mb-4 card shadow-sm rounded-0">
               <div className="row no-gutters d-flex flex-column ">
@@ -87,7 +91,10 @@ const Calender = () => {
 
         {/* Right side content: Upcoming Events */}
         <div className="col-md-6 ">
-        <h3 className="text-start mb-4 fw-semibold  text-success"><span className='blog'>Upcoming </span> Events</h3>
+          <h3 className="text-start mb-4 fw-semibold  text-success">
+            <span className="blog ourvalues">Upcoming </span>
+            <span className="ourvalues"> Events</span>
+          </h3>
           {events.map((event) => (
             <div
               key={event.id}

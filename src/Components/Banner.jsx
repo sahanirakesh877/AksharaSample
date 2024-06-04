@@ -41,10 +41,10 @@ const Banner = () => {
             />
             <div className="carousel-caption position-absolute  d-flex justify-content-center align-items-center text-center">
               <div>
-                <h1 className="display-4 fw-bold">
+                <h3 className="banner-head">
                   Empowering Students for Success
-                </h1>
-                <p className="lead">
+                </h3>
+                <p className="banner-p">
                   Providing Exceptional Education and Guidance{" "}
                 </p>
               </div>
@@ -57,14 +57,22 @@ const Banner = () => {
               alt="..."
             />
             <div className="carousel-caption position-absolute  d-flex justify-content-center align-items-center text-center">
-              <div>
+              {/* <div>
                 <h1 className="display-4 fw-bold">
                   Cultivating Excellence in Learning
                 </h1>
                 <p className="lead">
                   Your Path to Academic Success Begins Here
                 </p>
-              </div>
+              </div> */}
+               <div>
+                <h1 className="banner-head">
+                  Cultivating Excellence in Learning
+                </h1>
+                <p className="banner-p">
+                  Your Path to Academic Success Begins Here
+                </p>
+              </div> 
             </div>
           </div>
           <div className="carousel-item">
@@ -74,11 +82,17 @@ const Banner = () => {
               alt="..."
             />
             <div className="carousel-caption position-absolute  d-flex justify-content-center align-items-center text-center">
-              <div>
+              {/* <div>
                 <h1 className="display-4 fw-bold">
                   Building a Foundation for Excellence
                 </h1>
                 <p className="lead">Where Knowledge and Innovation Thrive</p>
+              </div> */}
+              <div>
+                <h1 className="banner-head">
+                  Building a Foundation for Excellence
+                </h1>
+                <p className="banner-p">Where Knowledge and Innovation Thrive</p>
               </div>
             </div>
           </div>

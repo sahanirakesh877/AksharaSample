@@ -22,8 +22,8 @@ const About = () => {
         </div>
       </div>
 
-      <div className="col-12 col-lg-6 col-xl-6 ">
-        <img className="img-fluid rounded aboutimg" loading="lazy" src="/aksahara1.jpg" alt />
+      <div className="col-12 col-lg-6 col-xl-6   py-4">
+        {/* <img className="img-fluid rounded aboutimg" loading="lazy" src="/aksahara1.jpg" alt />
         <div className="row gy-4 gy-md-0 mt-2 gx-xxl-5X  ">
               <div className="col-12 col-md-6 ">  
                   <div class="">
@@ -39,7 +39,16 @@ const About = () => {
                   </div>
                
               </div>
-        </div>
+        </div> */}
+       <div className='video-sec'>
+
+     
+        <video className="img-fluid rounded" width="100%" height="auto" controls autoPlay muted>
+              <source src="https://www.aksharaaschool.edu.np/public/assets/aksharaa-space.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            </div>
+           
       </div>
 
      

@@ -6,7 +6,7 @@ const TopBar = () => {
   return (
     <>
   
-      <div class="container-fluid d-none d-lg-block">
+      <div class="container-fluid d-none d-lg-block  ">
       <div class="row align-items-center py-1 px-xl-5">
         <div class="col-lg-3">
           <a href="" class="text-decoration-none">

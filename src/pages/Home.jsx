@@ -15,6 +15,7 @@ import Community from "../Components/Community";
 import Learning from "../Components/Learning";
 import Learning1 from "../Components/Learning1";
 import Calender from "../Components/Calender";
+import Marist from "../Components/Marist";
 
 const Home = () => {
   const [popoup, setPopup] = useState(true);
@@ -25,7 +26,11 @@ const Home = () => {
         <div id="popoupContainer">
           <div className="imageContainer">
             {/* <img src={popoupImg} alt="" className="popupimg" /> */}
-             <img src='https://aksharaaschool.edu.np/storage/news-events/March2024/xRqFMcDy8P7lYMTjGLjkS.jpg.pagespeed.ic.eYuKu8OBu4.webp' alt="" className="popupimg" />
+            <img
+              src="https://aksharaaschool.edu.np/storage/news-events/March2024/xRqFMcDy8P7lYMTjGLjkS.jpg.pagespeed.ic.eYuKu8OBu4.webp"
+              alt=""
+              className="popupimg"
+            />
 
             <button className="btns" onClick={() => setPopup(false)}>
               X
@@ -36,16 +41,16 @@ const Home = () => {
       <TopBar />
       <Header />
       <Banner />
-    
       <About />
-      <Learning1/>
-      <Learning/>
-      <Community/>
+      <Community />
+      <Learning1 />
+      <Learning />
       {/* <Lrpa/> */}
-      <Blog/>
-      <Contact/>
-     <Calender/>
-      <Testimonial/>
+      <Blog />
+      <Marist />
+      <Calender />
+      <Testimonial />
+      <Contact />
       <ScrollComponent />
       <Footer />
     </>
