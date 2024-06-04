@@ -10,9 +10,9 @@ const ChatApp = () => {
     headerFontColor: "#fff",
     headerFontSize: "15px",
     botBubbleColor: "#ec4b76",
-    botFontColor: "#640D6B",
+    botFontColor: "#fff",
     userBubbleColor: "#640D6B",
-    userFontColor: "#4a4a4a",
+    userFontColor: "#fff",
   };
 
   const steps = [

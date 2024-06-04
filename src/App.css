@@ -14,7 +14,7 @@ a{
 }
 
 :root {
-  --color: #03c139;
+  --color: #02a430;
   --seccolor: #ee0b34;
 }
 .btncolor {
@@ -135,7 +135,8 @@ a{
   right: 20px;
   margin: 7px 0;
   padding: 0px 10px;
-  background-color: #04b436;
+  background-color: #02b234;
+ 
   
 }
 .phoneIcon::after {
@@ -149,8 +150,8 @@ a{
   border: 1px solid#ee0d49;
   right: 100%;
   background-color: white;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
   top: 0;
   animation: animateHover 0.7s normal;
 }
@@ -162,7 +163,7 @@ a{
   font-size: 18px;
   text-align: center;
   align-items: center;
-  padding-top: 7px;
+  padding-top: 3px;
   font-weight: 600;
 }
 
@@ -498,7 +499,7 @@ background-position: center;
 .card-title{
   font-size: 18px !important;
   font-weight: 500;
-  color: #03c042;
+  color: #027428;
 }
 
 .blog-right{

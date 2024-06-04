@@ -6,7 +6,7 @@ const Marist = () => {
       id: 1,
       title: "Excellence in Education",
       description:
-        "Marist achieves its ideal of excellence in undergraduate, graduate, and professional education by actively engaging each student through exemplary teaching and distinctive learning opportunities.",
+        "Akashara achieves its ideal of excellence in kindergarten, graduate, and grade education by actively engaging each student through exemplary teaching and distinctive learning opportunities.",
       img:
         "/marist1.png",
     },
@@ -22,7 +22,7 @@ const Marist = () => {
       id: 3,
       title: "Commitment to Service",
       description:
-        "The Marist ideal of service is predicated on our belief in the dignity and value of every human being. The College supports programs to meet a wide variety of community needs and to offer broader access to education.",
+        "The Akashara ideal of service is predicated on our belief in the dignity and value of every human being. The College supports programs to meet a wide variety of community needs and to offer broader access to education.",
       img:
         "/marist4.png",
     },
