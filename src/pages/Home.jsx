@@ -14,6 +14,7 @@ import Blog from "../Components/Blog";
 import Community from "../Components/Community";
 import Learning from "../Components/Learning";
 import Learning1 from "../Components/Learning1";
+import Calender from "../Components/Calender";
 
 const Home = () => {
   const [popoup, setPopup] = useState(true);
@@ -43,7 +44,7 @@ const Home = () => {
       {/* <Lrpa/> */}
       <Blog/>
       <Contact/>
-     
+     <Calender/>
       <Testimonial/>
       <ScrollComponent />
       <Footer />

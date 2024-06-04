@@ -4,7 +4,7 @@ const Blog = () => {
   return (
     <section className="py-5 bg-light">
       <div className="container">
-        <h1 className="text-center mb-5 fw-semibold "><span className='blog'>Latest Events</span> and Blogs</h1>
+        <h1 className="text-center mb-5 fw-semibold "><span className='blog'>Latest </span>  Blogs</h1>
         <div className="row">
 
           <div className="col-lg-4 mb-4">
