@@ -47,19 +47,23 @@ const Home = () => {
       <Banner />
       <New/>
       <About1/>
-      <About />
+      {/* <About /> */}
       <Community />
-      <Learning1 />
-      <Learning />
+      {/* <Learning1 />
+      <Learning /> */}
       {/* <Lrpa/> */}
-      <Blog />
+    
       <Marist />
-      <Calender />
-      <Testimonial />
-      <Contact />
-      <ScrollComponent />
+      {/* <Calender /> */}
+      
       <Gallery/>
       <Creatives/>
+      <Testimonial />
+      <Blog />
+      <Contact />
+     
+      <ScrollComponent />
+      
       <Footer />
     </>
   );

@@ -14,7 +14,7 @@ a{
 }
 
 :root {
-  --color: #02a430;
+  --color: #22B24C;
   --seccolor: #ee0b34;
 }
 .btncolor {
@@ -30,11 +30,11 @@ a{
   width: 13px;
 }
 ::-webkit-scrollbar-track {
-  background-color: #04b436;
+  background-color: #a1a5a3;
   border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #ff002f;
+  background: #7a7475;
   border-radius: 10px;
 }
 /* webkit scroll bar color  end*/
@@ -62,12 +62,51 @@ a{
 /* topbar end */
 
 /*------------ header start  ------ */
+/* .navbar {
+  top: -1px;
+  z-index: 100;
+  background-color: var(--color);
+  color: white !important;
+} */
+
 .navbar {
   top: -1px;
   z-index: 100;
   background-color: var(--color);
   color: white !important;
+  padding: 10px 20px; /* Add some padding */
+  position: relative;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), /* Lower shadow */
+              0 -5px 10px rgba(255, 255, 255, 0.2); /* Upper highlight */
+  border-top: 1px solid rgba(255, 255, 255, 0.5); /* Top border highlight */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5); /* Bottom border shadow */
 }
+
+.navbar:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.2); /* Highlight on the upper side */
+  border-radius: 10px 10px 0 0;
+}
+
+.navbar:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: rgba(0, 0, 0, 0.2); /* Shadow on the lower side */
+  border-radius: 0 0 10px 10px;
+}
+
+
+
+
 .navbar-brand {
   width: 160px;
   height: 63px;
@@ -84,11 +123,32 @@ a{
 .a {
   margin-top: 40px;
 }
-.inquirybtn {
+/* .inquirybtn {
   background-color:#ee0b34;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
+} */
+.inquirybtn {
+  background-color: #e23253;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 5px 0 #b00927, /* Lower side shadow */
+              0 -5px 0 #ff4f5e; /* Upper side highlight */
+  transition: transform 0.2s;
 }
+
+.inquirybtn:active {
+  transform: translateY(3px);
+  box-shadow: 0 2px 0 #b00927,
+              0 -2px 0 #ff4f5e;
+}
+
 
 /* home carausel system  */
 .carousel-item {
@@ -139,9 +199,10 @@ a{
   top: 50%;
   right: 20px;
   margin: 7px 0;
-  padding: 0px 10px;
+  padding: 4px 10px;
+  border-radius: 50%;
   background-color: #02b234;
- 
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   
 }
 .phoneIcon::after {

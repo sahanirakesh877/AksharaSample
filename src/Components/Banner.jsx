@@ -35,7 +35,8 @@ const Banner = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="/aksahara1.jpg"
+              // src="/aksahara1.jpg"
+              src="/bg.jpg"
               className="d-block w-100 img-fluid"
               alt="..."
             />
@@ -59,7 +60,7 @@ const Banner = () => {
           </div>
           <div className="carousel-item">
             <img
-              src="/akashara3.jpg"
+              src="/bg4.jpg"
               className="d-block w-100 img-fluid"
               alt="..."
             />
@@ -90,7 +91,7 @@ const Banner = () => {
           </div>
           <div className="carousel-item">
             <img
-              src="/akashara2.jpg"
+              src="/bg2.jpg"
               className="d-block w-100 img-fluid"
               alt="..."
             />
