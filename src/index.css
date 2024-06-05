@@ -42,7 +42,7 @@
     padding: 5px 0;
   }
   .event{
-    background-color: rgb(228, 235, 228);
+    background-color:#E8FFE8 ;
   }
 
   .leftborder{
@@ -53,20 +53,25 @@
 
   .noticeborder{
     border-left: 1px solid red;
+    
   }
-  .noticeborder1{
-    border-right: 1px solid red;
-  }
+ 
   .notice-card{
-    height: 460px;
-    width: 100%;
+    width: fit-content;
     padding: 0 10px;
+    height: 521px;
+
   }
   .notice-card img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
   }
 
+  .shareicon{
+    border-radius: 50%;
+    padding: 10px;
+  }
 
   /* new components */
   .newp{
@@ -74,18 +79,23 @@
     text-align: justify;
   }
 
+  .leftImg {
+    height: 100%;
+  }
+
 
   .bannerbtn {
-    background-color: #db0419; /* Bootstrap's 'btn-danger' color */
+    background-color: var(--red); 
     border: none;
     color: white;
     padding: 0 10px;
     font-size: 12px;
-    border-radius: 50px; /* Equivalent to 'rounded-pill' */
-    position: relative;
-    box-shadow: 0 5px 0 #9e1724, /* Lower side shadow */
-                0 -5px 0 #f7545c; /* Upper side highlight */
-    transition: transform 0.2s;
+    border-radius: 50px; 
+    margin-right: 480px;
+    margin-top: 20px;
+
+ 
+   
   }
 
   .eventup{
@@ -94,4 +104,16 @@
   }
   .gallerysec{
     background-color: rgb(232, 255, 232);
+  }
+
+
+  .inquirybtnlist{
+    margin-left: 140px;
+  }
+
+  .blogbg{
+    background-color: #E8FFE8;
+  }
+  .footercolor{
+    background-color: aliceblue;
   }

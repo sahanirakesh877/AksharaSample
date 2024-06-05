@@ -138,8 +138,8 @@ const Header = () => {
                  Download
                 </a>
               </li>
-              <li className="nav-item  inquirybtnlist">
-                <button className="nav-link  px-5 inquirybtn text-white" aria-disabled="true">
+              <li className="nav-item  inquirybtnlist ">
+                <button className="nav-link  px-5 inquirybtn  rounded-pill text-white" aria-disabled="true">
                 Get Inquiry
                 </button>
               </li>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <section className="py-5 bg-light">
+    <section className="py-5 blogbg">
       <div className="container">
         <h1 className="text-center mb-5 fw-semibold   ">
           <span className="blog border-bottom border-2  border-success">Latest </span> <span className="border-bottom border-2 border-success"> Blogs</span>
@@ -21,7 +21,7 @@ const Blog = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Vivamus efficitur ultrices enim nec scelerisque.
                 </p>
-                <a href="#" className="btn blogbtn rounded-pill">
+                <a href="#" className="btn blogbtn text-white rounded-pill">
                   Read More
                 </a>
               </div>

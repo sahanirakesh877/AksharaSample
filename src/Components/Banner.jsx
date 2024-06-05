@@ -48,7 +48,7 @@ const Banner = () => {
                 <div className="bannerbtn">
 
               
-                <button className="btn btn-danger px-3  rounded-pill">
+                <button className="btn text-white px-3  rounded-pill">
                   Read More
                 </button>
                 </div>
@@ -81,7 +81,7 @@ const Banner = () => {
                 <div className="bannerbtn">
 
                
-                <button className="btn btn-danger  px-3 rounded-pill">
+                <button className="btn text-white  px-3 rounded-pill">
                   Read More
                 </button>
                 </div>
@@ -112,7 +112,7 @@ const Banner = () => {
                 <div className="bannerbtn">
 
                
-                <button className="btn btn-danger  px-3 rounded-pill">
+                <button className="btn text-white  px-3 rounded-pill">
                   Read More
                 </button>
                 </div>

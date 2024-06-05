@@ -6,10 +6,10 @@ const ChatApp = () => {
   const theme = {
      background: "#0A6847",
     fontFamily: "Helvetica Neue",
-    headerBgColor: "	#c70e0e",
+    headerBgColor: "	#B50021",
     headerFontColor: "#fff",
     headerFontSize: "15px",
-    botBubbleColor: "#c70e0e",
+    botBubbleColor: "#B50021",
     botFontColor: "#fff",
     userBubbleColor: "#D42243",
     userFontColor: "#fff",

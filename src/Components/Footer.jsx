@@ -6,7 +6,7 @@ import { FaLocationDot, FaMessage } from "react-icons/fa6";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-body-secondary ">
+      <footer className="footercolor">
         <div className="container mx-auto py-5 ">
           <div className="row d-flex justify-content-center  align-items-center  ">
             <div className="col-md-4 ">

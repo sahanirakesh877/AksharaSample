@@ -16,6 +16,7 @@ a{
 :root {
   --color: #136f44;
   --seccolor: #8b0921;
+  --red:#B50021;
 }
 .btncolor {
   color: #ff002f;
@@ -129,25 +130,19 @@ a{
   border-bottom-right-radius: 20px;
 } */
 .inquirybtn {
-  background-color: #d42243;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  background-color: #b50021;
   color: white;
-  padding: 10px 20px;
+  padding: 8px 10px;
   font-size: 16px;
   border: none;
   cursor: pointer;
   position: relative;
-  box-shadow: 0 4px 0 #b21532, /* Lower side shadow */
-              0 -4px 0 #c34d57; /* Upper side highlight */
+  box-shadow: 0 2px 0 #71021e,
+              0 -2px 0 #7f1a22; 
   transition: transform 0.2s;
 }
 
-.inquirybtn:active {
-  transform: translateY(3px);
-  box-shadow: 0 2px 0 #b00927,
-              0 -2px 0 #ff4f5e;
-}
+
 
 
 /* home carausel system  */
@@ -179,10 +174,6 @@ a{
 }
 .banner-head{
   font-size: 40px;
-}
-.bannerbtn{
-  margin-right: 480px;
-  padding: 10px 0;
 }
 
 /* home carausel system  end */
@@ -407,7 +398,7 @@ a{
   color: #d70039;
 }
 .blogbtn {
-  background-color: #d70039;
+  background-color: var(--red);
   color: aliceblue;
 }
 
