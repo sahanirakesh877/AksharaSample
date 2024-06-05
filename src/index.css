@@ -73,3 +73,25 @@
     font-size: 17px;
     text-align: justify;
   }
+
+
+  .bannerbtn {
+    background-color: #db0419; /* Bootstrap's 'btn-danger' color */
+    border: none;
+    color: white;
+    padding: 0 10px;
+    font-size: 12px;
+    border-radius: 50px; /* Equivalent to 'rounded-pill' */
+    position: relative;
+    box-shadow: 0 5px 0 #9e1724, /* Lower side shadow */
+                0 -5px 0 #f7545c; /* Upper side highlight */
+    transition: transform 0.2s;
+  }
+
+  .eventup{
+    margin-left: 200px;
+    margin-bottom: 20px;
+  }
+  .gallerysec{
+    background-color: rgb(232, 255, 232);
+  }

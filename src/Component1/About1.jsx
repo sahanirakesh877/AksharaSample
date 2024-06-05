@@ -42,6 +42,12 @@ const About1 = () => {
     <>
       <div className="container">
         <div className="row py-4">
+          <div className="d-flex justify-content-center">
+          <h4 className="text-start text-success  fw-semibold eventup">
+              <span className="blog ourvalues">Upcoming</span> &nbsp;
+              <span className="ourvalues">Events</span>
+            </h4>{" "}
+          </div>
           <div className="col-md-6 noticeborder1 ">
             <div className="video-sec">
               <video
@@ -59,22 +65,40 @@ const About1 = () => {
                 Your browser does not support the video tag.
               </video>
               <h3 className="fw-bold btncolor pt-5">संस्कारयुक्त शिक्षा</h3>
-              <p className="newp"><strong>"Sanskaryukta Siksha"</strong> is fundamental at our school.The School on its dynamic framework builds on and offers students a repertoire of ECAs made integral with the mainstream academic endeavors we engage students throughout. Some key ECAs that Aksharaa offers on school days.
+              <p className="newp">
+                <strong>"Sanskaryukta Siksha"</strong> is fundamental at our
+                school.The School on its dynamic framework builds on and offers
+                students a repertoire of ECAs made integral with the mainstream
+                academic endeavors we engage students throughout. Some key ECAs
+                that Aksharaa offers on school days.
               </p>
               <h2 className="fw-bold text-success text-uppercase">Mission</h2>
               <p>
-              We use the  LRPA. With the motto 'learning through fun', we make learning of core theories and values in the class fun filled and exciting. We believe in experiential learning. Through exploration, students are allowed to experience firsthand learning experiences. The classroom activities are not confined to the books
+                We use the LRPA. With the motto 'learning through fun', we make
+                learning of core theories and values in the class fun filled and
+                exciting. We believe in experiential learning. Through
+                exploration, students are allowed to experience firsthand
+                learning experiences. The classroom activities are not confined
+                to the books
               </p>
               <h2 className="fw-bold text-success text-uppercase">Vision</h2>
-              <p>Nurturing young learners to become lifelong learners globally competent and responsible citizens.</p>
+              <p>
+                Nurturing young learners to become lifelong learners globally
+                competent and responsible citizens.
+              </p>
             </div>
           </div>
           <div className="col-md-6">
+          
             {events.map((event) => (
+              <>
+              
+
               <div
                 key={event.id}
                 className="event ps-5 py-2   border-0 d-flex flex-row justify-content-between align-items-center gap-0"
               >
+              
                 <div className="blog-img  ">
                   <img
                     src={event.img}
@@ -87,6 +111,9 @@ const About1 = () => {
                   <p className="card-text">Date: {event.date}</p>
                 </div>
               </div>
+              </>
+              
+              
             ))}
 
             <h5 className="pt-4  pb-4 text-success">Upcoming Calender Dates</h5>

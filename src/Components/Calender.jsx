@@ -114,7 +114,7 @@ const Calender = () => {
             </div>
           ))}
 
-          <h5 className="pt-4  pb-4 text-success">Upcoming Calender Dates</h5>
+          <h5 className="pt-4  pb-4 text-success">Upcoming Calender Date</h5>
           <div className="d-flex flex-row">
             <ul className="list-unstyled  calender">
               <li>

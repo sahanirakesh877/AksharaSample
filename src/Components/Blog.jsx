@@ -39,7 +39,7 @@ const Blog = () => {
                 <h5 className="card-title">Akhsara Registration Open</h5>
                 <p className="card-text">
                   Lorem ipsum dolor sit amet,cin Vivamus efficitur ultrices enim
-                  nec scelerisque. ipsum dolor consectetur adipiscing{" "}
+                  nec scelerisque. ipsum dolor consectetur {" "}
                 </p>
                 <a href="#" className="btn blogbtn rounded-pill ">
                   Read More

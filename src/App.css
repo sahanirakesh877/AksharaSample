@@ -14,15 +14,15 @@ a{
 }
 
 :root {
-  --color: #22B24C;
-  --seccolor: #ee0b34;
+  --color: #136f44;
+  --seccolor: #8b0921;
 }
 .btncolor {
   color: #ff002f;
 }
 
 .bcolor{
-  color: #04b436;
+  color: #136f44;
 }
 
 /* webkit scroll bar color  start*/
@@ -42,7 +42,7 @@ a{
 /* topbar start */
 .icon {
   font-size: 16px;
-  color: #04b436;
+  color: #136f44;
 }
 .btns {
   text-decoration: none;
@@ -129,7 +129,7 @@ a{
   border-bottom-right-radius: 20px;
 } */
 .inquirybtn {
-  background-color: #e23253;
+  background-color: #d42243;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   color: white;
@@ -138,8 +138,8 @@ a{
   border: none;
   cursor: pointer;
   position: relative;
-  box-shadow: 0 5px 0 #b00927, /* Lower side shadow */
-              0 -5px 0 #ff4f5e; /* Upper side highlight */
+  box-shadow: 0 4px 0 #b21532, /* Lower side shadow */
+              0 -4px 0 #c34d57; /* Upper side highlight */
   transition: transform 0.2s;
 }
 
@@ -162,7 +162,7 @@ a{
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)); /* Adjust the colors and opacity as needed */
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
 }
 .carousel-item img {
   height: 80vh;
@@ -213,7 +213,7 @@ a{
   color: green;
   height: 100%;
   width: 250px;
-  border: 1px solid#ee0d49;
+  border: 1px solid#114705;
   right: 100%;
   background-color: white;
   border-top-left-radius: 2px;
@@ -404,15 +404,15 @@ a{
 
 /* blogs section start */
 .blog {
-  color: #ee0d49;
+  color: #d70039;
 }
 .blogbtn {
-  background-color: #ee0d49;
+  background-color: #d70039;
   color: aliceblue;
 }
 
 .blogbtn:hover {
-  background-color: #04b436;
+  background-color: #136f44;
   color: aliceblue;
   transition: all 0.5s ease-in-out;
 }
@@ -579,7 +579,7 @@ background-position: center;
 }
 
 .contactpage{
-  background-color: #05ae35;
+  background-color: #136f44;
 }
 
 /* marist section */

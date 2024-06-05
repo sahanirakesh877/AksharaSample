@@ -3,7 +3,10 @@ import React from "react";
 const Gallery = () => {
   return (
     <>
-      <div className="container py-5">
+    <div className="gallerysec">
+
+   
+      <div className="container py-5 ">
       <h2 className="text-success py-4 fw-semibold">STUDENT ACTIVITIES</h2>
         {/* left box */}
         <div className="row d-flex align-items-center">
@@ -83,6 +86,7 @@ const Gallery = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
