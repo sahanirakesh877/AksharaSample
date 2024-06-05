@@ -62,11 +62,11 @@ const Calender = () => {
     <div className="container py-5">
       <div className="row">
         {/* Left side content: Blogs */}
-        <div className="col-md-6">
-          <h3 className="text-start text-success mb-4 fw-semibold ">
+        <div className="col-md-6 leftborder">
+          <h4 className="text-start text-success mb-4 fw-semibold ">
             <span className="blog ourvalues">Recent</span>{" "}
             <span className="ourvalues">Activities</span>
-          </h3>
+          </h4>
           {blogs.map((blog) => (
             <div key={blog.id} className="mb-4 card shadow-sm rounded-0">
               <div className="row no-gutters d-flex flex-column ">
@@ -91,28 +91,95 @@ const Calender = () => {
 
         {/* Right side content: Upcoming Events */}
         <div className="col-md-6 ">
-          <h3 className="text-start mb-4 fw-semibold  text-success">
-            <span className="blog ourvalues">Upcoming </span>
-            <span className="ourvalues"> Events</span>
-          </h3>
+        <h4 className="text-start text-success mb-4 fw-semibold ">
+            <span className="blog ourvalues">Upcoming</span>{" "}
+            <span className="ourvalues">Events</span>
+          </h4>
           {events.map((event) => (
             <div
               key={event.id}
-              className="bg-body-tertiary card p-0  border-0 d-flex flex-row justify-content-between align-items-center gap-0"
+              className="event ps-5 py-2   border-0 d-flex flex-row justify-content-between align-items-center gap-0"
             >
-              <div className="blog-img  mb-3 ">
+              <div className="blog-img  ">
                 <img
                   src={event.img}
                   className="card-img-top"
                   alt={event.title}
                 />
               </div>{" "}
-              <div className="card-body  ">
+              <div className="card-body  ps-3 ">
                 <h5 className="card-title  mb-0 p-0">{event.title}</h5>
                 <p className="card-text">Date: {event.date}</p>
               </div>
             </div>
           ))}
+
+          <h5 className="pt-4  pb-4 text-success">Upcoming Calender Dates</h5>
+          <div className="d-flex flex-row">
+            <ul className="list-unstyled  calender">
+              <li>
+                8 Nov <strong>2023</strong>
+              </li>
+              <li>
+                12 Dec <strong>2023</strong>
+              </li>
+              {/* <li>
+                19 Nov <strong>2023</strong>
+              </li> */}
+              <li>
+                29 Sep <strong>2023</strong>
+              </li>
+              <li>
+                8 Nov <strong>2023</strong>
+              </li>
+              <li>
+                11 Aug <strong>2023</strong>
+              </li>
+              <li>
+                12 Jan <strong>2023</strong>
+              </li>
+              <li>
+                29 JUl <strong>2023</strong>
+              </li>
+              <li>
+                16 Dec <strong>2023</strong>
+              </li>
+              <li>
+                12 JUl <strong>2023</strong>
+              </li>
+            </ul>
+            <ul className="list-unstyled ps-5 calender">
+              <li>
+              Professional Development - Staff Only
+              </li>
+              <li>
+              First Day of School - Students
+              </li>
+              <li>
+              1:15 pm Early Dismissal - Professional
+              </li>
+              <li>
+              2023	Labor Day - No School
+              </li>
+              <li>
+              1:15 pm Early Dismissal- Professional
+              </li>
+              <li>
+              indigenous Day - No School
+              </li>
+              <li>
+              Election Day - No School - Professional Development
+              </li>
+              <li>
+              11:30 am Early Dismissal for Parent/Teacher 
+              </li>
+              <li>
+              1:15 pm Early Dismissal - Professional
+              </li>
+            </ul>
+
+
+          </div>
         </div>
       </div>
     </div>

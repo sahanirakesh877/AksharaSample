@@ -72,9 +72,9 @@ const Testimonial = () => {
       <section className="text-gray-600 body-font overflow-hidden   testimonial">
         <div className="container  mx-auto pb-5">
           <div className=" py-5">
-            <h1 className=" text-center client  font-semibold pb-3">
-              What Parents{" "}
-              <span className="text-white hover-border-b">Says</span>
+            <h1 className=" text-center text-white  font-semibold pb-3">
+               Parents{" "}
+              <span className="text-white hover-border-b">Voice </span>
             </h1>
           </div>
 

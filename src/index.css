@@ -1,0 +1,75 @@
+.activiti-img{
+    width: 100%;
+   height: 180px;
+}
+.activiti-img img{
+    width: auto;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 10px;
+}
+.midimg img{
+    border-radius: 10px;
+
+}
+
+
+.firstimg{
+  height: 250px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+    
+}
+.firstimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+      
+  }
+
+  .midimg{
+    margin-bottom: 100px;
+  }
+
+
+  .calender li{
+    font-size: 15px;
+    color:rgb(2, 129, 2);
+    border-top:1px solid rgb(168, 12, 12) ;
+    padding: 5px 0;
+  }
+  .event{
+    background-color: rgb(228, 235, 228);
+  }
+
+  .leftborder{
+    border-right: 1px solid rgb(217, 10, 10);
+  }
+
+
+
+  .noticeborder{
+    border-left: 1px solid red;
+  }
+  .noticeborder1{
+    border-right: 1px solid red;
+  }
+  .notice-card{
+    height: 460px;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .notice-card img{
+    height: 100%;
+    width: 100%;
+  }
+
+
+  /* new components */
+  .newp{
+    font-size: 17px;
+    text-align: justify;
+  }

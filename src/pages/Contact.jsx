@@ -117,7 +117,7 @@ const Contact = () => {
         </div>
       </div>
       <div
-        className="maps container py-2 mx-auto mt-3 mb-0 w-100"
+        className="maps container py-4 mx-auto mt-3 mb-0 w-100"
         style={{ padding: 0, margin: 0 }}
       >
         <iframe

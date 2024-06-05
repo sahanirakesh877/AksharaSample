@@ -16,6 +16,10 @@ import Learning from "../Components/Learning";
 import Learning1 from "../Components/Learning1";
 import Calender from "../Components/Calender";
 import Marist from "../Components/Marist";
+import Gallery from "../Component1/Gallery";
+import Creatives from "../Component1/Creatives";
+import New from "../Component1/New";
+import About1 from "../Component1/About1";
 
 const Home = () => {
   const [popoup, setPopup] = useState(true);
@@ -41,6 +45,8 @@ const Home = () => {
       <TopBar />
       <Header />
       <Banner />
+      <New/>
+      <About1/>
       <About />
       <Community />
       <Learning1 />
@@ -52,6 +58,8 @@ const Home = () => {
       <Testimonial />
       <Contact />
       <ScrollComponent />
+      <Gallery/>
+      <Creatives/>
       <Footer />
     </>
   );

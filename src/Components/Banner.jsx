@@ -44,9 +44,16 @@ const Banner = () => {
                 <h3 className="banner-head">
                   Empowering Students for Success
                 </h3>
-                <p className="banner-p">
+                <div className="bannerbtn">
+
+              
+                <button className="btn btn-danger px-3  rounded-pill">
+                  Read More
+                </button>
+                </div>
+                {/* <p className="banner-p">
                   Providing Exceptional Education and Guidance{" "}
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -69,9 +76,15 @@ const Banner = () => {
                 <h1 className="banner-head">
                   Cultivating Excellence in Learning
                 </h1>
-                <p className="banner-p">
+
+                <div className="bannerbtn">
+                <button className="btn btn-danger px-3 rounded-pill">
+                  Read More
+                </button>
+                </div>
+                {/* <p className="banner-p">
                   Your Path to Academic Success Begins Here
-                </p>
+                </p> */}
               </div> 
             </div>
           </div>
@@ -92,7 +105,14 @@ const Banner = () => {
                 <h1 className="banner-head">
                   Building a Foundation for Excellence
                 </h1>
-                <p className="banner-p">Where Knowledge and Innovation Thrive</p>
+                {/* <p className="banner-p">Where Knowledge and Innovation Thrive</p> */}
+                <div className="bannerbtn">
+
+               
+                <button className="btn btn-danger px-3 rounded-pill">
+                  Read More
+                </button>
+                </div>
               </div>
             </div>
           </div>
