@@ -40,7 +40,10 @@ const Creatives = () => {
     <div className="container py-5">
       <div className="row">
         <div className="col-md-6 mb-4 pe-4">
-          <h4 className='btncolor  pb-4 text-uppercase'>Creatives of This Week</h4>
+          {/* <h4 className='btncolor  pb-4 text-uppercase'>Creatives of This Week</h4> */}
+          <h2 className="text-start  fw-semibold  pb-4 ">
+          <span className="blog border-bottom border-2   border-success">Creatives Of  </span> <span className="border-bottom border-2 border-success text-success"> This Week</span>
+        </h2>
           <div className="card  shadow-sm rounded-0">
             <img
               src="https://img.freepik.com/premium-photo/boy-painted-white-paper-with-wood-color_51137-2147.jpg?w=826"
@@ -58,7 +61,10 @@ const Creatives = () => {
           </div>
         </div>
         <div className="col-md-6 noticeborder">
-          <h4 className='text-success  pb-4 ps-2 text-uppercase'>Important Notice</h4>
+          {/* <h4 className='text-success  pb-4 ps-2 text-uppercase'>Important Notice</h4> */}
+          <h2 className="text-start  fw-semibold  pb-4 ">
+          <span className="blog border-bottom border-2  border-success">Important </span> <span className="border-bottom border-2 border-success text-success"> Notice</span>
+        </h2>
           <div className="notice-card">
             <img
             src='/notice.png'

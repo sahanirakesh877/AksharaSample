@@ -22,7 +22,7 @@ const Community = () => {
                 <p
                   className={` commnuti ${
                     selectedId === item.id
-                      ? "text-danger border-bottom  "
+                      ? "selected "
                       : "text-white"
                   }`}
                   onClick={() => handleTitleClick(item.id)}

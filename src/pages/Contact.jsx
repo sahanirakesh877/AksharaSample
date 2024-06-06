@@ -6,9 +6,9 @@ const Contact = () => {
   return (
     <>
       <div className="container mx-auto pt-5">
-      <h1 className="text-center  fw-semibold   ">
+      <h2 className="text-start  fw-semibold   ">
           <span className="blog border-bottom border-2  border-success">Contact </span> <span className="border-bottom border-2 border-success text-success"> Us</span>
-        </h1>
+        </h2>
         <div className="row pt-4 ">
           <div className="col-md-5 contactpage py-4">
             <h4 className="text-center pb-4  text-light fw-semibold">

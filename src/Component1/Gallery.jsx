@@ -7,7 +7,10 @@ const Gallery = () => {
 
    
       <div className="container py-5 ">
-      <h2 className="text-success py-4 fw-semibold">STUDENT ACTIVITIES</h2>
+      {/* <h2 className="text-success py-4 fw-semibold">STUDENT ACTIVITIES</h2> */}
+      <h2 className="text-start  fw-semibold  pb-4 ">
+          <span className="blog border-bottom border-2  border-success">Student </span> <span className="border-bottom border-2 border-success text-success"> Activities</span>
+        </h2>
         {/* left box */}
         <div className="row d-flex align-items-center">
           <div className="col-md-3">

@@ -7,7 +7,7 @@ const New = () => {
         <div className="row py-5 d-flex align-items-center">
           <div className="col-md-5">
             <h1 className="text-uppercase fw-bold">
-              a great start at <span className="text-success">Akashara</span>
+              a great start at <span className="text-success">Aksharaa</span>
             </h1> 
           </div>
           <div className="col-md-7">

@@ -4,10 +4,10 @@ const Blog = () => {
   return (
     <section className="py-5 blogbg">
       <div className="container">
-        <h1 className="text-center mb-5 fw-semibold   ">
-          <span className="blog border-bottom border-2  border-success">Latest </span> <span className="border-bottom border-2 border-success"> Blogs</span>
-        </h1>
-        <div className="row">
+      <h2 className="text-start  fw-semibold   ">
+          <span className="blog border-bottom border-2  border-success">Latest </span> <span className="border-bottom border-2 border-success text-success"> Blog</span>
+        </h2>
+        <div className="row pt-4">
           <div className="col-lg-4 mb-4">
             <div className="card ">
               <img

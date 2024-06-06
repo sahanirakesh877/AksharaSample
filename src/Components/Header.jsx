@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Header = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const navbar = document.querySelector(".navbar");
+      if (window.scrollY >113) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    };
 
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
       <nav className="navbar navbar-expand-lg   position-sticky">
@@ -21,11 +36,20 @@ const Header = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mx-auto mb-2 mb-lg-0 gap-2  py-2 text-white">
-
+            <ul className="navbar-nav mx-auto mb-2 mb-lg-0 gap-2  py-1 text-white">
+            
+            <li className="nav-item pe-4">
+            <img src="/white-logo.png"  alt="White Logo"
+                  className="logo-hidden" />
+              
+            </li>
 
               <li className="nav-item">
-                <a className="nav-link active text-white" aria-current="page" href="#">
+                <a
+                  className="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                >
                   Home
                 </a>
               </li>
@@ -124,28 +148,37 @@ const Header = () => {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link  text-white fw-semibold" aria-disabled="true">
+                <a className="nav-link  text-white" aria-disabled="true">
                   Gallery
                 </a>
               </li>
+
               <li className="nav-item">
                 <a className="nav-link  text-white" aria-disabled="true">
-                 Career
+                  Career
                 </a>
               </li>
+
               <li className="nav-item">
                 <a className="nav-link  text-white" aria-disabled="true">
-                 Download
+                  Download
                 </a>
               </li>
-              <li className="nav-item  inquirybtnlist ">
-                <button className="nav-link  px-5 inquirybtn  rounded-pill text-white" aria-disabled="true">
-                Get Inquiry
+              <li className="nav-item  ms-5 headbtn ">
+                <button className="nav-link    text-white rounded-pill" aria-disabled="true">
+                  Get Inquiry
                 </button>
               </li>
-              
-              
 
+              {/* <li className="nav-item  inquirybtnlist ">
+                <button
+                  className="nav-link  px-5 inquirybtn  rounded-pill text-white"
+                  aria-disabled="true"
+                >
+                  Get Inquiry
+                </button>
+              </li> */}
+              
             </ul>
           </div>
         </div>

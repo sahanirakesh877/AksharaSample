@@ -89,7 +89,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="bg-success mb-0">
+        <div className="footercolor1 mb-0">
           <div className="d-flex justify-content-between  align-items-center  py-0  pt-2  container mx-auto ">
             <h6 className="py-2 text-light">copyright &copy; Akshara School</h6>
             <h6 className="py-2 text-light">Made by Navata Tech</h6>

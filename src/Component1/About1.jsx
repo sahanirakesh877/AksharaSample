@@ -43,10 +43,9 @@ const About1 = () => {
       <div className="container">
         <div className="row py-4">
           <div className="d-flex justify-content-center">
-          <h4 className="text-start text-success  fw-semibold eventup">
-              <span className="blog ourvalues">Upcoming</span> &nbsp;
-              <span className="ourvalues">Events</span>
-            </h4>{" "}
+          <h2 className="text-start  fw-semibold  upevent pb-4">
+          <span className="blog border-bottom border-2  border-success">Upcoming </span> <span className="border-bottom border-2 border-success text-success"> Events</span>
+        </h2>
           </div>
           <div className="col-md-6 noticeborder1 ">
             <div className="video-sec">
@@ -64,7 +63,7 @@ const About1 = () => {
                 />
                 Your browser does not support the video tag.
               </video>
-              <h3 className="fw-bold btncolor pt-5">संस्कारयुक्त शिक्षा</h3>
+              <h4 className="fw-bold blog pt-5">संस्कारयुक्त शिक्षा</h4>
               <p className="newp">
                 <strong>"Sanskaryukta Siksha"</strong> is fundamental at our
                 school.The School on its dynamic framework builds on and offers

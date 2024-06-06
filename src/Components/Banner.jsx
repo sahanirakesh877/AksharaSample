@@ -19,7 +19,7 @@ const Banner = () => {
       <div className="phoneIcon" data-text="+977-01-4993031/32/33">
       <MdLocalPhone />
       </div>
-      <div className="phoneIcon" data-text="akshara123@gmail.com">
+      <div className="phoneIcon" data-text="info@aksharaaschool.edu.np">
       <MdOutlineAttachEmail />
       </div>
       <div className="phoneIcon " data-text="977-01-4993031">

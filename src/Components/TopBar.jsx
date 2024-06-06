@@ -16,7 +16,7 @@ const TopBar = () => {
         <div class="col-lg-3 text-right">
           <div class="d-inline-flex align-items-center">
        
-            <FaLocationDot  className="icon fs-3 me-3"/>
+            <FaLocationDot  className="icon fs-3 me-3 iconsicon"/>
             <div class="text-left">
               <h6 class="font-weight-semi-bold mb-0 icon">Our Office</h6>
               <small>
@@ -28,7 +28,7 @@ const TopBar = () => {
         </div>
         <div class="col-lg-3 text-right">
           <div class="d-inline-flex align-items-center">
-           <FaMessage  className="icon fs-3 me-3"/>
+           <FaMessage  className="icon fs-3 me-3 iconsicon"/>
             <div class="text-left">
               <h6 class="font-weight-semi-bold mb-0 icon">Email Us</h6>
               <small>info@aksharaaschool.edu.np</small>
@@ -37,7 +37,7 @@ const TopBar = () => {
         </div>
         <div class="col-lg-3 text-right">
           <div class="d-inline-flex align-items-center">
-           <FaPhoneAlt  className="icon fs-3 me-3"/>
+           <FaPhoneAlt  className="icon fs-3 me-3 iconsicon"/>
             <div class="text-left">
               <h6 class="font-weight-semi-bold mb-0 icon">Call Us</h6>
               <small> +977-01-4993031/32/33 </small>
